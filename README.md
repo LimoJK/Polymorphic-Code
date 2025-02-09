@@ -6,6 +6,60 @@ A code that changes form continuously to evade anti-virus software due to its ab
 
 
 **Polymorphic Codes in the World of Cybersecurity**
+section .text
+    global _start
+
+_start:
+    call decryptor
+    db 0xAA, 0xBB, 0xCC, 0xDD  ; Encrypted payload (changes each execution)
+    
+decryptor:
+    ; XOR decryption routine (modifies each execution)
+    mov esi, _start + 5
+    mov ecx, 4
+    mov al, 0x55
+decrypt_loop:
+    xor byte [esi], al
+    inc esi
+    loop decrypt_loop
+
+    ; Jump to decrypted payload
+    jmp _start + 5
+This assembly snippet demonstrates a simple polymorphic XOR decryption technique, where the encryption key (0x55) and payload (0xAA, 0xBB, 0xCC, 0xDD) can change dynamically each time the code is executed.
+
+import random
+
+def generate_polymorphic_code():
+    key = random.randint(1, 255)  # Random encryption key
+    payload = [0x31, 0xC0, 0x50, 0x68]  # Original payload (mov eax, 0; push eax; push "sh")
+    
+    encrypted_payload = [byte ^ key for byte in payload]
+    
+    decryption_stub = f"""
+    xor eax, eax
+    mov bl, {key}
+    lea esi, [payload]
+    lea edi, [decrypted]
+    mov ecx, {len(payload)}
+decode:
+    xor al, byte [esi]
+    xor al, bl
+    stosb
+    inc esi
+    loop decode
+    jmp decrypted
+    """
+
+    return decryption_stub, encrypted_payload
+
+stub, encrypted = generate_polymorphic_code()
+print("Generated Polymorphic Assembly Stub:")
+print(stub)
+print("Encrypted Payload:", encrypted)
+
+This Python script generates a polymorphic assembly stub with dynamically encrypted shellcode that changes every execution.
+
+
 
 ### Introduction
 In the ever-evolving landscape of cybersecurity, malicious actors continually develop new techniques to evade detection and enhance the effectiveness of their attacks. One such sophisticated technique is the use of polymorphic codes. These self-altering codes are designed to change their structure while retaining their original functionality, making them particularly challenging for traditional security measures to detect. Understanding polymorphic code, its mechanisms, and countermeasures is essential for cybersecurity professionals to develop robust defense strategies against cyber threats.
