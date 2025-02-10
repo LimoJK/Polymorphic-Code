@@ -6,10 +6,8 @@ A code that changes form continuously to evade anti-virus software due to its ab
 
 
 **Polymorphic Codes in the World of Cybersecurity**
-section .text
 
-import random
-
+https://github.com/LimoJK/Polymorphism/blob/27b8ab6344af26f0a7e318ee8114220b41a15c03/Screenshot%202025-02-10%20004629.png
 
 
 This Python script generates a polymorphic assembly stub with dynamically encrypted shellcode that changes every execution.
