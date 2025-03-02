@@ -120,12 +120,19 @@ Polymorphic code represents a significant challenge in the field of cybersecurit
 
 ## Related Sources
 [Semantics Based Polymorphism](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3086r3.pdf)
+
 [Polymorphism](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3584r0.pdf)
+
 [Facade Creation Facilities](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3401r0.pdf)
+
 [Pointer Semantics based Polymorphism](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3401r0.pdf)
+
 [Runtime Polymorphism made easier](https://devblogs.microsoft.com/cppblog/proxy-runtime-polymorphism-made-easier-than-ever/)
+
 [Polymorphism in Programming](https://www.bmc.com/blogs/polymorphism-programming/)
+
 [Introduction to Polymorphism in Java](https://apcentral.collegeboard.org/media/pdf/Intro_to_Polymorphismin_Umbargar.pdf)
+
 [Metamorphic Code Generation](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1305&context=etd_projects)
 
 
