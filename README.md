@@ -108,14 +108,24 @@ Polymorphic code represents a significant challenge in the field of cybersecurit
 
 ## REFERENCES
 
-1.Blackberry. (n.d.). What is Polymorphic Malware?. Retrieved September 27, 2024.
+1.[What is Polymorphic Malware?.](https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/polymorphic-malware)
 
-2.SentinelOne. (2023, March 18). What is Polymorphic Malware? Examples and Challenges. Retrieved September 27, 2024.
+2.[What is Polymorphic Malware? Examples and Challenges.](https://www.sentinelone.com/cybersecurity-101/threat-intelligence/what-is-polymorphic-malware).
 
-3.Sherwin Akshay. (2024, May 28). Techniques for concealing malware and hindering analysis: Packing up and unpacking stuff. Retrieved September 27, 2024.
+3.[Techniques for concealing malware and hindering analysis: Packing up and unpacking stuff](https://www.linkedin.com/pulse/techniques-concealing-malware-hindering-analysis-packing-akshay-unijc)
 
-4.Shellseekercyber. (2024, January 7). Explainer: Packed Malware. Retrieved September 27, 2024.
+4.[Explainer: Packed Malware.](https://medium.com/@shellseekerscyber/explainer-packed-malware-16f09cc75035)
 
-5.Harbison, M. (2021, February 9). BendyBear: Novel Chinese Shellcode Linked With Cyber Espionage Group BlackTech. Retrieved February 16, 2021.
+5.[BendyBear: Novel Chinese Shellcode Linked With Cyber Espionage Group BlackTech.](https://unit42.paloaltonetworks.com/bendybear-shellcode-blacktech)
+
+## Related Sources
+[Semantics Based Polymorphism](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3086r3.pdf)
+[Polymorphism](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3584r0.pdf)
+[Facade Creation Facilities](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3401r0.pdf)
+[Pointer Semantics based Polymorphism](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3401r0.pdf)
+[Runtime Polymorphism made easier](https://devblogs.microsoft.com/cppblog/proxy-runtime-polymorphism-made-easier-than-ever/)
+[Polymorphism in Programming](https://www.bmc.com/blogs/polymorphism-programming/)
+[Introduction to Polymorphism in Java](https://apcentral.collegeboard.org/media/pdf/Intro_to_Polymorphismin_Umbargar.pdf)
+[Metamorphic Code Generation](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1305&context=etd_projects)
 
 
