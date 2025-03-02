@@ -56,4 +56,16 @@ To combat the threats posed by polymorphic code, cybersecurity professionals emp
 ### Conclusion
 Polymorphic code represents a significant challenge in the field of cybersecurity due to its ability to constantly change and evade detection. While traditional security measures struggle against these adaptive threats, advancements in behavior-based detection, artificial intelligence, and heuristic analysis provide effective countermeasures. Cybersecurity professionals must remain vigilant and continue developing innovative techniques to stay ahead of malicious actors utilizing polymorphic code. By understanding the mechanics of polymorphic malware and implementing robust defense strategies, organizations can enhance their security posture against evolving cyber threats.
 
+## REFERENCES
+
+1.Blackberry. (n.d.). What is Polymorphic Malware?. Retrieved September 27, 2024.
+
+2.SentinelOne. (2023, March 18). What is Polymorphic Malware? Examples and Challenges. Retrieved September 27, 2024.
+
+3.Sherwin Akshay. (2024, May 28). Techniques for concealing malware and hindering analysis: Packing up and unpacking stuff. Retrieved September 27, 2024.
+
+4.Shellseekercyber. (2024, January 7). Explainer: Packed Malware. Retrieved September 27, 2024.
+
+5.Harbison, M. (2021, February 9). BendyBear: Novel Chinese Shellcode Linked With Cyber Espionage Group BlackTech. Retrieved February 16, 2021.
+
 
