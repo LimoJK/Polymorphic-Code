@@ -1,5 +1,10 @@
 # Polymorphix
 A code that changes form continuously to evade anti-virus software due to its ability to be undetected.
+### Introduction
+In the ever-evolving landscape of cybersecurity, malicious actors continually develop new techniques to evade detection and enhance the effectiveness of their attacks. One such sophisticated technique is the use of polymorphic codes. These self-altering codes are designed to change their structure while retaining their original functionality, making them particularly challenging for traditional security measures to detect. Understanding polymorphic code, its mechanisms, and countermeasures is essential for cybersecurity professionals to develop robust defense strategies against cyber threats.
+
+### Understanding Polymorphic Code
+Polymorphic code is a type of self-modifying code that changes its appearance every time it is executed while maintaining the same underlying behavior. This characteristic makes it highly effective in evading signature-based detection systems used by antivirus software. Unlike static malware, which has a fixed code structure, polymorphic malware encrypts or obfuscates its code and uses a different decryption routine each time it executes.
 
 
 ![image alt](https://github.com/LimoJK/Polymorphism/blob/f37ad1cfd2e71a0bae1bf815b0cbf9eb7fce75c1/Screenshot%202025-01-20%20180427.png)
@@ -14,11 +19,7 @@ This Python script generates a polymorphic assembly stub with dynamically encryp
 
 
 
-### Introduction
-In the ever-evolving landscape of cybersecurity, malicious actors continually develop new techniques to evade detection and enhance the effectiveness of their attacks. One such sophisticated technique is the use of polymorphic codes. These self-altering codes are designed to change their structure while retaining their original functionality, making them particularly challenging for traditional security measures to detect. Understanding polymorphic code, its mechanisms, and countermeasures is essential for cybersecurity professionals to develop robust defense strategies against cyber threats.
 
-### Understanding Polymorphic Code
-Polymorphic code is a type of self-modifying code that changes its appearance every time it is executed while maintaining the same underlying behavior. This characteristic makes it highly effective in evading signature-based detection systems used by antivirus software. Unlike static malware, which has a fixed code structure, polymorphic malware encrypts or obfuscates its code and uses a different decryption routine each time it executes.
 
 ## Curious on How a Polymorphic Code is Created?
 Polymorphic code employs a mutation engine in addition to the polymorphic code. From infection to infection, the mutation engine generates a randomly selected decoding routine and adjusts the file name of the polymorphic code.
