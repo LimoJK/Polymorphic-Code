@@ -39,6 +39,9 @@ Polymorphic coding techniques are widely used in various cyber threats, includin
 - **Polymorphic Worms**: Self-replicating malware that spreads across networks while continuously changing its code signature.
 - **Advanced Persistent Threats (APTs)**: Sophisticated cyberattacks often incorporate polymorphic techniques to remain undetected within a network for extended periods.
 
+  ## Sub-Techniques of Obfuscated files
+  Adversaries may utilize polymorphic code (also known as metamorphic or mutating code) to evade detection. Polymorphic code is a type of software capable of changing its runtime footprint during code execution.[1] With each execution of the software, the code is mutated into a different version of itself that achieves the same purpose or objective as the original. This functionality enables the malware to evade traditional signature-based defenses, such as antivirus and antimalware tools.[2] Other obfuscation techniques can be used in conjunction with polymorphic code to accomplish the intended effects, including using mutation engines to conduct actions such as Software Packing, Command Obfuscation, or Encrypted/Encoded File
+
 ### Challenges in Detecting Polymorphic Malware
 Polymorphic malware presents significant challenges for cybersecurity defenses, including:
 1. **Bypassing Signature-Based Detection**: Since polymorphic malware changes its signature with each iteration, traditional antivirus software struggles to recognize it.
