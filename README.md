@@ -20,6 +20,18 @@ In the ever-evolving landscape of cybersecurity, malicious actors continually de
 ### Understanding Polymorphic Code
 Polymorphic code is a type of self-modifying code that changes its appearance every time it is executed while maintaining the same underlying behavior. This characteristic makes it highly effective in evading signature-based detection systems used by antivirus software. Unlike static malware, which has a fixed code structure, polymorphic malware encrypts or obfuscates its code and uses a different decryption routine each time it executes.
 
+## Curious on How a Polymorphic Code is Created?
+Polymorphic code employs a mutation engine in addition to the polymorphic code. From infection to infection, the mutation engine generates a randomly selected decoding routine and adjusts the file name of the polymorphic code.
+
+The virus seeks new programs to infect and adds a duplicate of its body and mutation engine to the new program. This allows the polymorphic virus to propagate and destroy the system without being identified and prevented by any antivirus using the usual signature detection technique.
+
+Working on Polymorphic Code
+When an antivirus software detects a virus, it blocks it and any other malicious code with identical features is automatically banned. However, in case of a polymorphic code, even if the signature or decryption procedure changes with each mutation, the virus's core function stays the same.
+
+When the signature and decryption routines change, antivirus software that relies on conventional signature-based detection fails to detect and stop harmful code. As a result, the virus duplicates itself and the mutation engine.
+
+The mutation engine is then activated, and a new decryption method is constructed without relation to the original decryption process. The virus then encrypts its body and mutation engine before attaching the new decoding routine, encrypted virus, and mutation engine to the new program.
+
 The core components of polymorphic code include:
 1. **The Encrypted Payload**: The actual malicious code, which remains unchanged in functionality but is obfuscated.
 2. **The Decryption Routine**: A small piece of code responsible for decrypting the payload before execution.
@@ -85,17 +97,7 @@ To combat the threats posed by polymorphic code, cybersecurity professionals emp
 - **Sandboxing**: Running suspicious programs in an isolated environment helps observe their execution without affecting the host system.
 - **Regular Updates to Security Software**: Ensuring security tools are frequently updated enhances their ability to detect emerging polymorphic threats.
 
-  ## Curious on How a Polymorphic Code is Created?
-Polymorphic code employs a mutation engine in addition to the polymorphic code. From infection to infection, the mutation engine generates a randomly selected decoding routine and adjusts the file name of the polymorphic code.
-
-The virus seeks new programs to infect and adds a duplicate of its body and mutation engine to the new program. This allows the polymorphic virus to propagate and destroy the system without being identified and prevented by any antivirus using the usual signature detection technique.
-
-Working on Polymorphic Code
-When an antivirus software detects a virus, it blocks it and any other malicious code with identical features is automatically banned. However, in case of a polymorphic code, even if the signature or decryption procedure changes with each mutation, the virus's core function stays the same.
-
-When the signature and decryption routines change, antivirus software that relies on conventional signature-based detection fails to detect and stop harmful code. As a result, the virus duplicates itself and the mutation engine.
-
-The mutation engine is then activated, and a new decryption method is constructed without relation to the original decryption process. The virus then encrypts its body and mutation engine before attaching the new decoding routine, encrypted virus, and mutation engine to the new program.
+  
 
 
 
